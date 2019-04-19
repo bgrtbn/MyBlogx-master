@@ -131,6 +131,8 @@
     <Compile Include="Areas\Member\Controllers\MemberArticleController.cs" />
     <Compile Include="Areas\Member\Controllers\MemberHomeController.cs" />
     <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
+    <Compile Include="Areas\Member\Models\VM\MemberArticleCommentVM.cs" />
+    <Compile Include="Areas\Member\Models\VM\MemberCommentVM.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -173,6 +175,7 @@
     <Content Include="Areas\Author\Views\AuthorArticle\List.cshtml" />
     <Content Include="Areas\Author\Views\AuthorArticle\Update.cshtml" />
     <Content Include="Areas\Member\Views\MemberHome\MemberHomeIndex.cshtml" />
+    <Content Include="Areas\Member\Views\MemberArticle\Show.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Account\Login.cshtml" />
     <None Include="Web.Debug.config">
@@ -186,8 +189,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Views\Account\" />
     <Folder Include="Areas\Admin\Views\Base\" />
-    <Folder Include="Areas\Member\Models\" />
-    <Folder Include="Areas\Member\Views\MemberArticle\" />
     <Folder Include="Content\images\" />
   </ItemGroup>
   <ItemGroup>
